@@ -1,5 +1,6 @@
 package com.example.icaro.prototipomotohelp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -20,13 +21,12 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.navigation_home:
                     mTextMessage.setText(R.string.title_home);
                     return true;
-                case R.id.navigation_dashboard:
-                    mTextMessage.setText(R.string.title_dashboard);
+                case R.id.navigation_maps:
+                    mTextMessage.setText(R.string.title_maps);
+                    //Intent exemplo2 = new Intent(this, MapsActivity.class);
+                    //startActivity(exemplo2);
                     return true;
                 case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
-                    return true;
-                case R.id.navigation_notifications2:
                     mTextMessage.setText(R.string.title_notifications);
                     return true;
             }
