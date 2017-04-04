@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 case R.id.navigation_maps:
                     //mTextMessage.setText(R.string.title_maps);
-                    Intent exemplo2 = new Intent(this, MapsActivity.class);
+                    Intent exemplo2 = new Intent(MainActivity.this, MapsActivity.class);
                     startActivity(exemplo2);
                     //return true;
 
