@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                     mTextMessage.setText(R.string.title_home);
                     return true;
                 case R.id.navigation_maps:
-                    // O ìcato é Viado
+                    // O ìcaro é Viado
                     //mTextMessage.setText(R.string.title_maps);
                     Intent exemplo2 = new Intent(MainActivity.this, MapsActivity.class);
                     startActivity(exemplo2);
